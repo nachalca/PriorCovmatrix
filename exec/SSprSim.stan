@@ -2,7 +2,7 @@
 data {
   int <lower=0> N;
   int <lower=0> k;
-  real<lower 0> s0;
+  real<lower=0> s0;
   matrix[k,k] R;
 }
 parameters {
